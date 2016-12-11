@@ -1,0 +1,232 @@
+body {
+    margin: 0px;
+    background-color: #f0efef;
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+/** Nav bar*/
+
+.top_nav_container {
+    background-color: #033048;
+    display: flex;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    justify-content: flex-end;
+}
+
+nav ul li {
+    color: #f9e42e;
+    padding-right: 50px;
+    font-size: 20px;
+}
+
+nav ul li a {
+    color: #f9e42e;
+    font-weight: 100;
+}
+
+.main_logo {
+    padding: 20px;
+    font-weight: 900;
+    font-size: 40px;
+    color: white;
+    width: 30%;
+}
+
+
+/**banner**/
+
+header {
+    background-image: url(images/header_bg.jpg);
+    height: 500px;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+header .main_banner_content {
+    text-align: center;
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 12px;
+    font-weight: 900;
+    background-color: #f9e42e;
+    border-radius: 5px;
+}
+
+
+/**end banner**/
+
+.main_content {
+    margin: 50px;
+}
+
+.main_content p {
+    font-size: 13px;
+    font-weight: 100;
+}
+
+.main_banner_content h1 {
+    font-weight: bolder;
+    color: white;
+    margin-bottom: 20px;
+}
+
+ul {
+    font-size: 13px;
+    font-weight: lighter;
+}
+
+header .main_banner_content {
+    text-align: center;
+}
+
+
+/**testimonial**/
+
+.testimonial {
+    display: flex;
+    background-image: url(images/testimonial_bg.jpg);
+    height: 200px;
+    justify-content: space-around;
+    align-items: center;
+    background-position: center;
+    background-size: cover;
+}
+
+.testimonial blockquote {
+    text-align: center;
+    font-size: 18px;
+    font-style: italic;
+    color: white;
+    width: 360px;
+    font-weight: lighter;
+}
+
+.testimonial blockquote span {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+
+/** Sign Up CTA */
+
+.sign_up {
+    text-align: center;
+    padding: 20px;
+    background-color: #f9e42e;
+}
+
+.sign_up button {
+    background-color: #033048;
+    color: white;
+    font-weight: bold;
+}
+
+
+/**Blog**/
+
+a {
+    text-decoration: none;
+    color: #033048;
+    font-weight: 700;
+}
+
+.main_container {
+    display: flex;
+}
+
+.blog {
+    width: 75%;
+}
+
+.blog_post {
+    border-bottom: 2px black solid;
+    margin: 0px 60px;
+    padding: 70px 0px;
+}
+
+.blog_post:last-child {
+    border-bottom: none;
+}
+
+.blog_post a {
+    text-align: right;
+}
+
+.blog_post h2 {
+    padding-bottom: 14px;
+    font-size: 33px;
+}
+
+.blog_post img {
+    height: 245px;
+    padding: 30px 0px;
+}
+
+aside {
+    width: 25%;
+    padding: 70px 0px;
+}
+
+aside h2 {
+    font-size: 30px;
+    padding-bottom: 20px;
+    font-weight: 700;
+    color: #033048;
+}
+
+.categories ul li {
+    font-size: 20px;
+    line-height: 30px;
+}
+
+.about h2 {
+    padding-top: 20px
+}
+
+.ad_unit h2 {
+    text-align: center;
+    padding: 200px 0px;
+    background-color: white;
+    margin-top: 20px;
+}
+
+
+/** Footer */
+
+footer {
+    text-align: center;
+    background-color: #121212;
+    padding: 20px 0px;
+}
+
+i.fa.fa-facebook.fa-3x {
+    color: white;
+}
+
+i.fa.fa-twitter.fa-3x {
+    color: white;
+}
+
+.footer_logo {
+    height: 50px;
+    font-weight: bolder;
+    font-size: 24px;
+    color: #f9e42e;
+}
+
+.copyright p {
+    font-size: 9px;
+    font-weight: 400;
+    color: white;
+}
