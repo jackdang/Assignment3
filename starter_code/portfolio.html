@@ -10,6 +10,7 @@
 		<link rel="stylesheet" href="stylesheet.css">
         <script src="https://use.fontawesome.com/afedfec107.js"></script>
         <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i" rel="stylesheet">
+        <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
 	</head>
 	<body>
         <div class="top_nav_container">
@@ -29,17 +30,21 @@
         </div>
         <main class="main_container">        
             <div class="blog">
-                <div class="blog_post">
+                <div class="blog_post collapsed" id="first_blog">
                     <h2>How I implemented Relaxr in 2 weeks and changed my life.</h2>
                     <img src="images/blog_photo1.jpg">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br><br>
-                    <a href="#"><p>Read more ></p></a>
+                    <p class="hidden" id="moretext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="readmore">Read more ></a>
+                    <a href="#" class="readless hidden">Read less ></a>
                 </div>
-                <div class="blog_post">
+                <div class="blog_post collapsed" id="second_blog">
                     <h2>I traveled across the globe thanks to Relaxr's Excel automation</h2>
                     <img src="images/blog_photo2.jpg">
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p><br><br>
-                    <a href="#"><p>Read more ></p></a>
+                    <p class="hidden" id="secondmoretext">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                    <a href="#" class="secondreadmore">Read more ></a>
+                    <a href="#" class="secondreadless hidden">Read less ></a>
                 </div>
                 </div>
             <aside>
@@ -56,7 +61,9 @@
                 <div class="about">
                     <h2>About Relaxr</h2>
                     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
-                    <a href="#">Learn More</a>
+                    <p class="hidden" id="aboutmore">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum </p>
+                    <a href="#" class="learnmore">Learn More</a>
+                    <a href="#" class="learnless hidden">Learn Less</a>
                 </div>
                 <div class="ad_unit">
                     <h2>Ad Unit</h2>
@@ -76,5 +83,6 @@
                 <p>Copyright 2015. Relaxr</p>
             </div>
         </footer>
+    <script src="js/index.js"></script>
 	</body>
 </html>
